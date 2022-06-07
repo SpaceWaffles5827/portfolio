@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  /* background-color: black; */
+  height: 100vh;
+  background-image: linear-gradient(175deg,#2D446E 35%,#E8755E,#F0B058,#7EBFEF);
+}
+.navBar{
+  background-color: #1d1d1f;
+  height: 48px;
+  align-items: center;
+}
+.navbarContent{
+  width: 100%;
+  font-size: 10px;
+  height: inherit;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarContent h1{
+  margin: 20px;
+}
+.HomeBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 500px;
+}
+.HomeText{
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+}
