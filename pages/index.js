@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import HomeBody from '../components/HomeBody'
+import InfiniteCarousel from '../components/InfiniteCarousel'
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <NavBar></NavBar>
       <HomeBody></HomeBody>
-
+      <InfiniteCarousel></InfiniteCarousel>
     </div>
   )
 }
