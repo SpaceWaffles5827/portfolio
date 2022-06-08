@@ -1,44 +1,52 @@
 export default function InfiniteCarousel() {
     return (
         <div className="InfiniteCarousel">
-            <div className="box">
-                <div className="Content">
-                    <img className="object" src="Icons/css.png" height={100}></img>
-                    <img className="object" src="Icons/git.png" height={100}></img>
-                    <img className="object" src="Icons/html.png" height={100}></img>
-                    <img className="object" src="Icons/javascript.jpg" height={100}></img>
-                    <img className="object" src="Icons/next.png" height={100}></img>
-                    <img className="object" src="Icons/python.png" height={100}></img>
-                    <img className="object" src="Icons/react.jpg" height={100}></img>
-                </div>
-                <div className="Content">
-                    <img className="object" src="Icons/css.png" height={100}></img>
-                    <img className="object" src="Icons/git.png" height={100}></img>
-                    <img className="object" src="Icons/html.png" height={100}></img>
-                    <img className="object" src="Icons/javascript.jpg" height={100}></img>
-                    <img className="object" src="Icons/next.png" height={100}></img>
-                    <img className="object" src="Icons/python.png" height={100}></img>
-                    <img className="object" src="Icons/react.jpg" height={100}></img>
-                </div>
-                {/* <div className="Content">
-                    <h1 className="object">test1</h1>
-                    <h1 className="object">test2</h1>
-                    <h1 className="object">test3</h1>
-                    <h1 className="object">test4</h1>
-                    <h1 className="object">test5</h1>
-                    <h1 className="object">test6</h1>
-                    <h1 className="object">test7</h1>
-                </div>
-                <div className="Content">
-                    <h1 className="object">test1</h1>
-                    <h1 className="object">test2</h1>
-                    <h1 className="object">test3</h1>
-                    <h1 className="object">test4</h1>
-                    <h1 className="object">test5</h1>
-                    <h1 className="object">test6</h1>
-                    <h1 className="object">test7</h1>
-                </div> */}
-            </div>
+            <div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+    </div>
+  </div>
+</div>
         </div>
     )
   }
