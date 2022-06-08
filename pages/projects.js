@@ -1,10 +1,16 @@
 import NavBar from "../components/NavBar";
+import Project from "../components/project";
 
 export default function projects() {
     return (
-      <div className="projects">
-          <NavBar></NavBar>
-          <h1>projects</h1>
-      </div>
+      <>
+        <NavBar></NavBar>
+        <div className="projects">
+            <Project></Project>
+            <Project></Project>
+            <Project></Project>
+            <Project></Project>
+        </div>
+      </>
     )
   }

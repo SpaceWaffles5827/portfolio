@@ -77,12 +77,12 @@ InfiniteCarousel {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 8));
   }
 }
 
 .slider {
-  background: white;
+  background: rgba(255, 255, 255, 0.438);
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
   margin: auto;
@@ -142,4 +142,15 @@ InfiniteCarousel {
   justify-content: center;
   width: 90vw;
   height: 40vh;
+}
+
+.Project .box{
+  width: 400px;
+  height: 250px;
+  background-color: whitesmoke;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
 }
