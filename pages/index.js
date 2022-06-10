@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <NavBar></NavBar>
       <HomeBody></HomeBody>
-      <InfiniteCarousel></InfiniteCarousel>
+      {/* <InfiniteCarousel></InfiniteCarousel> */}
     </div>
   )
 }
