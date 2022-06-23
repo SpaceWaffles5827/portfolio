@@ -3,238 +3,58 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  /* background-color: black; */
   height: 100vh;
-  background-image: linear-gradient(175deg,#2D446E 35%,#E8755E,#F0B058,#7EBFEF);
-}
-::selection{
-  background-color: purple;
+  background-color: #7f559c;
 }
 
-.navBar{
+.grid{
+  position: absolute;
   width: 100%;
-  height: 45px;
-  background-color: #1d1d1f;
-  display: flex;
+  height: 100vh;
 }
-
-.navBar .left{
-  width: 10%;
-  display: flex;
-  align-items: center;
-  padding: 15px;
-}
-
-.navBar .center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-}
-
-.navBar h1{
-  color: rgb(202, 202, 202);
-}
-
-.navBar h1:hover{
-  cursor: pointer;
-  color: rgb(255, 255, 255);
-}
-
-.navBar .center h1{
-  font-size: 20px;
-  margin: 15px;
-}
-
-
-.navBar .right{
-  width: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.HomeBody{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  height: 400px;
-}
-.HomeText{
-  display: flex;
-  font-size: 30px;
-  flex-direction: column;
-  align-items: center;
-}
-.InfiniteCarousel{
-  display: flex;
-  justify-content: center;
-}
-.InfiniteCarousel .box{
-  display: flex;
-  width: 90%;
-  height: 125px;
-  background-color: rgba(245, 245, 245, 0.651);
-}
-.box .Content{
-  overflow:hidden;
-  width: 100%;
+.navbar{
   display: flex;
   flex-direction: row;
-  align-items: center;
-}
-.box .Content .object{
-  height: 110px;
-  width: 110px;
-  margin: 10px;
-}
-
-/*need to understand better*/
-InfiniteCarousel {
-  align-items: center;
-  background: #E3E3E3;
-  display: flex;
-  height: 100vh;
   justify-content: center;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 8));
-  }
-}
-
-.slider {
-  background: rgba(255, 255, 255, 0.438);
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 960px;
-}
-
-.slider::before,
-.slider::after {
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slider .slide-track {
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-
-.slider .slide {
-  height: 100px;
-  width: 250px;
-} 
-/*need to understand better*/
-
-.navbarContent h1:hover{
-  cursor: pointer;
-  color: rgb(219, 219, 219)
-}
-
-.contactContent{
-  display: flex;
-  justify-content: center;
-}
-
-.contactContent .middleBox{
-  color: white;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90vw;
-  height: 40vh;
-}
-
-.Project .box{
-  width: 400px;
-  height: 250px;
-  background-color: whitesmoke;
-}
-
-.projects{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.about .page{
-  display: flex;
-}
-.about .page div{
   width: 100%;
-  height:90vh;
 }
-.about .left img{
-  position: relative;
-  bottom: 10px;
-  right: 10px;
-  height: 85%;
-  justify-content: center;
-  align-items: center;
-}
-.about .page .left{
-  width: 40%;
-}
-
-.about .page .left{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about .page .left .backGround{
-  position: relative;
-  background-color: rgba(23, 0, 47, 0.37);
-  width: 70%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about .page .right{
-  width: 60%;
-}
-
-.about .page .right{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about .page .right .box{
+.buttons{
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  height: min-content;
-  background-color: #1d1d1f36;
+}
+.buttons h1{
+  font-size: 25px;
+  margin: 30px;
+  font-weight: 400;
+  font-weight:normal;
+}
+.largeName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+.largeName h1{
+  letter-spacing: 50px;
+  color: white;
+  font-weight: 100;
+  font-size: 100px;
+  font-stretch: expanded;
+}
+.bio{
+  height: 400px;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bio h1{
+  font-size: 150px;
+  color: white;
 }
